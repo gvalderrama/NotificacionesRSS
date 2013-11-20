@@ -6,6 +6,7 @@ namespace NotificacionesRSS
 	{
 		public Ejemplo ()
 		{
+
 		}
 	}
 }
