@@ -20,13 +20,13 @@ public partial class MainWindow: Gtk.Window
 	
 	protected void OnButton2Clicked (object sender, EventArgs e)
 	{
-		new NotificacionesRSS.historial();
+		new NotificacionesRSS.Historial();
 		//throw new System.NotImplementedException ();
 	}
 	
 	protected void OnButton3Clicked (object sender, EventArgs e)
 	{
-		new NotificacionesRSS.ajustes ();
+		//NotificacionesRSS.Historial.ajustes ();
 		//throw new System.NotImplementedException ();
 	}
 	

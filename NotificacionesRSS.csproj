@@ -66,6 +66,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Modulos\Ejemplo.cs" />
     <Compile Include="Modulos\Historial.cs" />
+    <Compile Include="Modulos\conexion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
