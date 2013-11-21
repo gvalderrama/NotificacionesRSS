@@ -20,7 +20,7 @@ public partial class MainWindow: Gtk.Window
 	
 	protected void OnButton2Clicked (object sender, EventArgs e)
 	{
-		new NotificacionesRSS.Historial();
+		//new NotificacionesRSS.Historial();
 		//throw new System.NotImplementedException ();
 	}
 	
@@ -37,7 +37,9 @@ public partial class MainWindow: Gtk.Window
 	protected void enviar_historial (object sender, EventArgs e)
 	{
 
-		throw new System.NotImplementedException ();
+		NotificacionesRSS.conexion.MostrarHistorial();
+		//System.Console.WriteLine("popopo");
+		//throw new System.NotImplementedException ();
 	}
 
 }
